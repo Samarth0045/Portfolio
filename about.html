@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Info</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/themify-icons@0.1.2/css/themify-icons.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+      padding: 50px 0;
+    }
+    .contact-info-card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+    .contact-title {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    .icon-md {
+      font-size: 1.5rem;
+      color: #dc3545;
+    }
+    .social-icons {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 15px;
+    }
+    .social-item a {
+      font-size: 1.4rem;
+      color: #343a40;
+      transition: color 0.3s;
+    }
+    .social-item a:hover {
+      color: #dc3545;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="contact-info-card">
+          <h4 class="contact-title">Get in Touch</h4>
+
+          <!-- Phone -->
+          <div class="row mb-3">
+            <div class="col-1 pt-1 mr-1">
+              <i class="ti-mobile icon-md"></i>
+            </div>
+            <div class="col-10">
+              <h6>Phone:<br><span class="text-muted">+91 8669676866</span></h6>
+            </div>
+          </div>
+
+          <!-- Address -->
+          <div class="row mb-3">
+            <div class="col-1 pt-1 mr-1">
+              <i class="ti-map-alt icon-md"></i>
+            </div>
+            <div class="col-10">
+              <h6>Address:<br><span class="text-muted">Pune, Maharashtra, India</span></h6>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="row mb-3">
+            <div class="col-1 pt-1 mr-1">
+              <i class="ti-envelope icon-md"></i>
+            </div>
+            <div class="col-10">
+              <h6>Email:<br><span class="text-muted">samarthsable0005@gmail.com</span></h6>
+            </div>
+          </div>
+
+          <!-- Social Links -->
+          <ul class="social-icons pt-4">
+            <li class="social-item"><a class="social-link" href="#"><i class="ti-facebook"></i></a></li>
+            <li class="social-item"><a class="social-link" href="#"><i class="ti-linkedin"></i></a></li>
+            <li class="social-item"><a class="social-link" href="#"><i class="ti-github"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

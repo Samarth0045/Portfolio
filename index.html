@@ -47,13 +47,13 @@
             <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a>
+                        <a href="index.html" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a>
+                        <a href="about.html" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#resume" class="nav-link">Resume</a>
+                        <a href="resume.html" class="nav-link">Resume</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav brand">
@@ -65,10 +65,10 @@
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#portfolio" class="nav-link">Project</a>
+                        <a href="project.html" class="nav-link">Project</a>
                     </li>
                     <li class="nav-item last-item">
-                        <a href="#contact" class="nav-link">Contact</a>
+                        <a href="contact.html" class="nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -132,7 +132,7 @@
                     <div class="col-1 text-danger pt-1"><i class="ti-html5 icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
                         <h6>Frontend Development</h6>
-                        <p class="subtitle">Crafting interactive and user-friendly interfaces using HTML, CSS, JavaScript, React, and Vue.js.</p>
+                        <p class="subtitle">Crafting interactive and user-friendly interfaces using HTML, CSS, JavaScript.</p>
                         <hr>
                     </div>
                 </div>
@@ -141,7 +141,7 @@
                     <div class="col-1 text-danger pt-1"><i class="ti-server icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
                         <h6>Backend Development</h6>
-                        <p class="subtitle">Developing robust server-side logic with Node.js, Express, Python, and databases like MongoDB & PostgreSQL.</p>
+                        <p class="subtitle">Developing robust server-side logic with Python, and databases like MongoDB & mysql.</p>
                         <hr>
                     </div>
                 </div>
@@ -151,15 +151,6 @@
                     <div class="col-10 ml-auto mr-3">
                         <h6>API Development & Integration</h6>
                         <p class="subtitle">Creating RESTful and GraphQL APIs for seamless data communication across applications.</p>
-                        <hr>
-                    </div>
-                </div>
-            
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-lock icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>Web Security & Performance</h6>
-                        <p class="subtitle">Ensuring website security, optimization, and performance for a smooth user experience.</p>
                         <hr>
                     </div>
                 </div>
@@ -268,76 +259,213 @@
         </div>
     </section>
 
-    <section class="section" id="service">
-        <div class="container">
-            <h2 class="mb-5 pb-4"><span class="text-danger">My</span> Services</h2>
-            <div class="row">
-                
-                <div class="col-md-4 col-sm-6">
-                    <div class="card mb-5">
-                       <div class="card-header has-icon">
-                            <i class="ti-desktop text-danger" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Web Development</h5>
-                            <p class="subtitle">Building dynamic, responsive, and scalable web applications using modern frameworks and technologies.</p>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="col-md-4 col-sm-6">
-                    <div class="card mb-5">
-                       <div class="card-header has-icon">
-                            <i class="ti-layers-alt text-danger" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Full Stack Development</h5>
-                            <p class="subtitle">End-to-end development with expertise in frontend, backend, and database management.</p>
-                        </div>
-                    </div>
-                </div>
+    <!-- Project Section -->
+<section class="section" id="projects">
+  <div class="container">
+    <h2 class="section-title text-center"><span class="text-danger">My</span> Projects</h2>
 
-                <div class="col-md-4 col-sm-6">
-                    <div class="card mb-5">
-                       <div class="card-header has-icon">
-                            <i class="ti-shield text-danger" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Web Security</h5>
-                            <p class="subtitle">Implementing security best practices to protect web applications from vulnerabilities and threats.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="row g-4">
+      <!-- HTML Project -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card p-4">
+          <span class="badge rounded-pill mb-2">HTML</span>
+          <h5>Personal Portfolio</h5>
+          <p class="text-muted">A responsive personal portfolio site using only HTML and CSS for layout and styling.</p>
         </div>
-    </section>    
-    <div class="section contact" id="contact">
-    <div id="map" class="map"></div>
-    <div class="container">
-        <div class="row">
-            <!-- Contact Form -->
-            <div class="col-lg-8">
-                <div class="contact-form-card">
-                    <h4 class="contact-title">Send a Message</h4>
-                    <form id="contact-form">
-                        <div class="form-group">
-                            <input class="form-control" type="text" id="name" name="name" placeholder="Your Name *" required>
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" type="email" id="email" name="email" placeholder="Your Email *" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" id="message" name="message" placeholder="Your Message *" rows="7" required></textarea>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="form-control btn btn-primary">Send Message</button>
-                        </div>
-                        <p id="status-message"></p>
-                    </form>
-                </div>
-            </div>
+      </div>
+
+      <!-- CSS Project -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card p-4">
+          <span class="badge rounded-pill mb-2">CSS</span>
+          <h5>Animated Landing Page</h5>
+          <p class="text-muted">A modern landing page featuring stylish animations and transitions using CSS.</p>
         </div>
+      </div>
+
+      <!-- JavaScript Projects -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card p-4">
+          <span class="badge rounded-pill mb-2">JavaScript</span>
+          <h5>To-Do List App</h5>
+          <p class="text-muted">Add, delete, and mark tasks as done using pure JavaScript logic and localStorage.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card p-4">
+          <span class="badge rounded-pill mb-2">JavaScript</span>
+          <h5>Weather App</h5>
+          <p class="text-muted">Fetch and display real-time weather using API and geolocation in a clean UI.</p>
+        </div>
+      </div>
+
+      <!-- Python Projects -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card p-4">
+          <span class="badge rounded-pill mb-2">Python</span>
+          <h5>JARVIS Virtual Assistant</h5>
+          <p class="text-muted">A voice-activated Python assistant with tasks like web search, email, and automation.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card p-4">
+          <span class="badge rounded-pill mb-2">Python</span>
+          <h5>File Organizer</h5>
+          <p class="text-muted">Organize files in folders based on extensions automatically using a Python script.</p>
+        </div>
+      </div>
+
+      <!-- Django Projects -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card p-4">
+          <span class="badge rounded-pill mb-2">Django</span>
+          <h5>College Management System</h5>
+          <p class="text-muted">A Django web app managing students, faculties, and leave request workflows.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card p-4">
+          <span class="badge rounded-pill mb-2">Django</span>
+          <h5>E-commerce Website</h5>
+          <p class="text-muted">An online store system with login, cart, and Stripe payment integration using Django.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card p-4">
+          <span class="badge rounded-pill mb-2">Django + AI</span>
+          <h5>Airline Expert System</h5>
+          <p class="text-muted">An AI-powered Django app for airline and cargo scheduling with chatbot support.</p>
+        </div>
+      </div>
     </div>
+  </div>
+</section>
+
+    <!-- My Services Section -->
+<section class="section bg-light" id="service">
+  <div class="container">
+    <h2 class="mb-5 pb-4 text-center section-title">
+      <span class="text-danger">My</span> Services
+    </h2>
+
+    <div class="row g-4">
+      <!-- Django Web Development -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body text-center">
+            <div class="icon mb-3 text-danger" style="font-size: 2.5rem;">
+              <i class="ti-desktop"></i>
+            </div>
+            <h5 class="card-title mb-3 fw-bold">Django Web Development</h5>
+            <p class="text-muted">
+              Developing secure and scalable web applications using Django, including admin panels, authentication, and database integration.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Full Stack Projects -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body text-center">
+            <div class="icon mb-3 text-danger" style="font-size: 2.5rem;">
+              <i class="ti-layers-alt"></i>
+            </div>
+            <h5 class="card-title mb-3 fw-bold">Full Stack Projects</h5>
+            <p class="text-muted">
+              Building complete applications from frontend (HTML/CSS/JS) to backend (Python/Django) and databases, including REST API integration.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- AI & Automation -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body text-center">
+            <div class="icon mb-3 text-danger" style="font-size: 2.5rem;">
+              <i class="ti-microphone"></i>
+            </div>
+            <h5 class="card-title mb-3 fw-bold">AI & Automation</h5>
+            <p class="text-muted">
+              Creating intelligent systems like JARVIS assistants and chatbot integration for web apps using Python and machine learning concepts.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cloud & SaaS Setup -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body text-center">
+            <div class="icon mb-3 text-danger" style="font-size: 2.5rem;">
+              <i class="ti-cloud"></i>
+            </div>
+            <h5 class="card-title mb-3 fw-bold">LAN Cloud & SaaS Setup</h5>
+            <p class="text-muted">
+              Hosting and managing your own cloud infrastructure over LAN using open-source technologies, encryption, and file control.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- College Management Solutions -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body text-center">
+            <div class="icon mb-3 text-danger" style="font-size: 2.5rem;">
+              <i class="ti-book"></i>
+            </div>
+            <h5 class="card-title mb-3 fw-bold">College Management Systems</h5>
+            <p class="text-muted">
+              Custom web portals for academic workflows like student leave, faculty approvals, and admin controls using Django and Bootstrap.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Secure E-commerce Development -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body text-center">
+            <div class="icon mb-3 text-danger" style="font-size: 2.5rem;">
+              <i class="ti-shopping-cart"></i>
+            </div>
+            <h5 class="card-title mb-3 fw-bold">Secure E-commerce</h5>
+            <p class="text-muted">
+              Developing online stores with secure login, product management, and Stripe payment integration tailored to user experience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Form -->
+<div class="col-lg-8">
+  <div class="contact-form-card">
+    <h4 class="contact-title">Send a Message</h4>
+    <form id="contact-form" action="https://formspree.io/f/mnnpwloq" method="POST">
+      <div class="form-group">
+        <input class="form-control" type="text" name="name" placeholder="Your Name *" required>
+      </div>
+      <div class="form-group">
+        <input class="form-control" type="email" name="email" placeholder="Your Email *" required>
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" name="message" placeholder="Your Message *" rows="7" required></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="form-control btn btn-primary">Send Message</button>
+      </div>
+      <p id="status-message"></p>
+    </form>
+  </div>
 </div>
     
                 <!-- Contact Info -->
@@ -371,7 +499,7 @@
                                 <i class="ti-envelope icon-md"></i>
                             </div>
                             <div class="col-10">
-                                <h6>Email:<br> <span class="text-muted">samarthsable2907@gmail.com</span></h6>
+                                <h6>Email:<br> <span class="text-muted">samarthsable0005@gmail.com</span></h6>
                             </div>
                         </div>
     
@@ -410,6 +538,39 @@
 
     <!-- samarth sabale js -->
     <script src="assets/js/script.js"></script>
+
+<script>
+  const form = document.getElementById('contact-form');
+  const statusMessage = document.getElementById('status-message');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch(form.action, {
+        method: 'POST',
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+
+      if (response.ok) {
+        statusMessage.textContent = "🎉 Message sent successfully!";
+        statusMessage.className = "text-success";
+        form.reset();
+      } else {
+        statusMessage.textContent = "❌ Oops! Something went wrong.";
+        statusMessage.className = "text-danger";
+      }
+    } catch (error) {
+      statusMessage.textContent = "❌ Network error. Please try again.";
+      statusMessage.className = "text-danger";
+    }
+  });
+</script>
 
 </body>
 </html>
